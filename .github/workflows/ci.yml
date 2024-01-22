@@ -37,5 +37,5 @@ jobs:
           key: ${{secrets.SSH_KEY}}
           script: |
             cd /home/new-website
-            docker-compose pull
-            docker-compose up -d --build --force-recreate
+            docker compose pull
+            docker compose up -d --build --force-recreate
