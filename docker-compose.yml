@@ -1,7 +1,7 @@
 version: '3'
 services:
   bitwarden:
-    image: ghcr.io/GCC-ENSIBS/gcc-ensibs-website
+    image: ghcr.io/gcc-ensibs/gcc-ensibs-website
     restart: always
     container_name: gcc-ensibs-website
     networks:
