@@ -1,4 +1,4 @@
-baseurl      = "localhost"
+baseurl      = "https://gcc-ensibs.fr"
 title        = "Galette Cidre CTF"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
@@ -24,9 +24,6 @@ readOtherPosts = "Read other posts"
   [params.logo]
     path = "/logo.svg"
     alt = "Logo"
-
-[taxonomies]
-    tag      = "tags"
 
 
   # And you can even create generic menu
