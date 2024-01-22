@@ -36,6 +36,6 @@ jobs:
           username: ${{secrets.SSH_USERNAME}}
           key: ${{secrets.SSH_KEY}}
           script: |
-            cd /home/new-website
+            cd /home/gcc/new-website
             docker compose pull
             docker compose up -d --build --force-recreate
