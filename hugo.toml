@@ -1,0 +1,36 @@
+baseurl      = "localhost"
+title        = "Galette Cidre CTF"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+paginate     = 10
+keywords = ""
+copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+readOtherPosts = "Read other posts"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+  subtitle  = "Capture The Flag Club from ENSIBS, Brittany"
+  homeSubtitle = "Capture The Flag Club from ENSIBS, Brittany"
+  titleShort   = "GCC"
+  disableReadOtherPosts = false
+  enableSharingButtons = true
+  enableGlobalLanguageMenu = false
+  description = "Capture The Flag Club from ENSIBS, Brittany"
+  keywords = "CTF, hacking, cybersecurity, ENSIBS"
+  images = [""]
+  [params.logo]
+    path = "/logo.svg"
+    alt = "Logo"
+
+[taxonomies]
+    tag      = "tags"
+
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Write-Ups"
+    url        = "/posts"
