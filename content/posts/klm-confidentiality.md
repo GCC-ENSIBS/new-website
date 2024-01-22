@@ -1,10 +1,8 @@
 ---
 title: "Confidentiality HTB Business 2023"
-author: "K.L.M"
+writer: "K.L.M"
 date: 2024-01-19T14:30:09+01:00
 draft: false
-toc: false
-context: "HTB Business 2023"
 tags: ["Web3","Blockchain"]
 ---
 

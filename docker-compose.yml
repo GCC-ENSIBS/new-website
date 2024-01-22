@@ -1,0 +1,20 @@
+version: '3'
+services:
+  bitwarden:
+    image: ghcr.io/GCC-ENSIBS/gcc-ensibs-website
+    restart: always
+    container_name: gcc-ensibs-website
+    networks:
+      - web
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=web"
+      - "traefik.http.routers.gcc-ensibs-website.entrypoints=web,websecure"
+      - "traefik.http.routers.gcc-ensibs-website.rule=Host(`gcc-ensibs.fr`)"
+      - "traefik.http.services.gcc-ensibs-website.loadbalancer.server.port=80"
+      - "traefik.http.routers.gcc-ensibs-website.tls=true"
+      - "traefik.http.routers.gcc-ensibs-website.tls.certresolver=lets-encrypt"
+
+networks:
+  web:
+    external: true

@@ -1,14 +1,9 @@
 ---
 title: "Contempt & Contempt revenge, how to bypass the fixed machines"
-author: "xThaz"
+writer: "xThaz"
 date: 2024-01-19T14:30:09+01:00
 draft: false
-toc: false
-images:
-tags:
-  - "Write-Up"
-  - "HTB"
-  - "AD"
+tags: ["Write-Up", "HTB", "AD"]
 ---
 
 Contempt was an hard rated Active Directory machine present at the HackTheBox Business CTF 2023. This article aims to write-up how I found two unintended ways that allowed me to get the root flag realy quickly. Thus, in both **contempt** and **contempt - revenge** (supposed to fix the unintended way).
