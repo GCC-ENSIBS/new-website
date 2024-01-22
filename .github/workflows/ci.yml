@@ -21,8 +21,8 @@ jobs:
 
       - name: 'Build Inventory Image'
         run: |
-          docker build . --tag ghcr.io/GCC-ENSIBS/gcc-ensibs-website:${{github.GITHUB_SHA}}
-          docker push ghcr.io/gcc-ensibs/gcc-ensibs-website:${{github.GITHUB_SHA}}
+          docker build . --tag ghcr.io/GCC-ENSIBS/gcc-ensibs-website:${{env.GITHUB_SHA}}
+          docker push ghcr.io/gcc-ensibs/gcc-ensibs-website:${{env.GITHUB_SHA}}
 
   deploy:
     runs-on: ubuntu-latest
